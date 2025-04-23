@@ -45,15 +45,16 @@ export const HeroSection = () => {
 
           <p className="text-gray-400 my-6 text-sm sm:text-base">
             {' '}
-            I'm a software developer with a degree in Computer Engineering from{' '}
+            I&apos;m a software developer with a degree in Computer Engineering
+            from{' '}
             <a href="https://www.bambui.ifmg.edu.br/portal/">
               {' '}
               IFMG - campus Bambuí
             </a>
-            . I’m passionate about software development across web, mobile, and
-            desktop platforms. I'm also an enthusiast in the field of Artificial
-            Intelligence. I am currently working at a software factory and I act
-            as a Jr. full stack developer.
+            . I&apos;m passionate about software development across web, mobile,
+            and desktop platforms. I&apos;m also an enthusiast in the field of
+            Artificial Intelligence. I am currently working at a software
+            factory and I act as a Jr. full stack developer.
           </p>
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
             <TechBadge name="Typescript" />
