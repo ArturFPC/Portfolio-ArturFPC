@@ -33,7 +33,7 @@ export const ExperienceItem = ({ item }: ExperienceItemProps) => {
       <div>
         <div className="flex flex-col gap-2 text-sm sm:text-base">
           <a
-            href="https://www.linkedin.com/company/realtecsolucaoemgestao/"
+            href={item.link}
             target="_blank"
             className="text-gray-500 hover:text-teal-500 transition-colors"
             rel="noreferrer"

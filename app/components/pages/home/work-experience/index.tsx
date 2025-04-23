@@ -36,13 +36,13 @@ export const WorkExperience = () => {
               'NestJs',
               'PostgreSql',
             ],
-            link: 'https://www.linkedin.com/company/realtecsolucaoemgestao/',
+            link: 'https://www.linkedin.com/company/dacta-tecnologias-personalizadas/',
             alt: 'Logo Dacta',
           }}
         />
         <ExperienceItem
           item={{
-            name: 'Realtec',
+            name: 'NegocIA',
             start: 'mar 2024',
             end: 'jan 2025',
             src: 'https://drive.google.com/uc?id=124Vsv_bpnz_ExA3PKBtXphI9nWmFx24n',
