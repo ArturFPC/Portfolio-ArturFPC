@@ -43,8 +43,8 @@ export const ContactForm = () => {
     >
       <div className="w-full max-w-[428px] mx-auto">
         <SectionTitle
-          subtitle="contato"
-          title="Vamos trabalhar juntos? Entre em contato"
+          subtitle="contact"
+          title="Let's work together? Get in touch"
           className="items-center text-center"
         />
         <form
@@ -52,7 +52,7 @@ export const ContactForm = () => {
           className="mt-12 w-full flex flex-col gap-4"
         >
           <input
-            placeholder="Nome"
+            placeholder="Name"
             className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-teal-600"
             {...register('name')}
           />
@@ -62,7 +62,7 @@ export const ContactForm = () => {
             {...register('email')}
           />
           <input
-            placeholder="Mensagem"
+            placeholder="Message"
             className="resize-none w-full h-[138px] bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-teal-600"
             maxLength={500}
             {...register('message')}
@@ -71,7 +71,7 @@ export const ContactForm = () => {
             className="w-max mx-auto mt-6 shadow-button"
             disabled={isSubmitting}
           >
-            Enviar Mensagem
+            Send Message
             <HiArrowNarrowRight size={18} />
           </Button>
         </form>

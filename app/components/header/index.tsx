@@ -9,7 +9,7 @@ const NAV_ITEMS = [
     href: '/',
   },
   {
-    label: 'Projetos',
+    label: 'Projects',
     href: '/projects',
   },
 ]

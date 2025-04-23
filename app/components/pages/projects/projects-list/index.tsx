@@ -8,9 +8,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'TyPython',
-            alt: 'Thumbnail do Projeto TyPython',
+            alt: 'Thumbnail TyPython',
             img: 'https://raw.githubusercontent.com/ArturFPC/tyPython/master/logo-TyPython.png',
-            text: 'Este foi um projeto realizado durante a disciplina de compiladores no oitavo período de graduação do curso de Engenharia de Computação no IFMG campus Bambuí. Realizei esse projeto juntamente com dois colegas Deivison Oliveira Costa e Mickael Osvaldo Oliveira, e por meio deste criamos uma linguagem de programação inspirada no Python, por meio da criação de três analisadores, um léxico, um sintático e um semântico.',
+            text: 'This was a project carried out during the compilers course in the eighth semester of the Computer Engineering course at IFMG, Bambuí campus. I carried out this project together with two colleagues, Deivison Oliveira Costa and Mickael Osvaldo Oliveira, and through this we created a programming language inspired by Python, through the creation of three analyzers, a lexical, a syntactic and a semantic one.',
             techs: 'Python',
           }}
         />
@@ -19,9 +19,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'NLW eSports',
-            alt: 'Thumbnail do Projeto NLW eSports',
+            alt: 'Thumbnail NLW eSports',
             img: 'https://raw.githubusercontent.com/ArturFPC/nlw-eSports/main/nlweSports.png',
-            text: 'Projeto criado durante uma das NLW fornecidas pela empresa RocketSeat, por meio desse projeto pude ter uma maior experiência com desenvolvimento WEB e Mobile, através de experiências com as principais tecnologias que foram demonstradas nesse evento, que no caso foram React, React Native e TypeScript.',
+            text: 'Project created during one of the NLW provided by the company RocketSeat, through this project I was able to have greater experience with WEB and Mobile development, through experiences with the main technologies that were demonstrated at this event, which in this case were React, React Native and TypeScript.',
             techs: 'React, JavaScript, HTML, CSS',
           }}
         />
@@ -30,10 +30,10 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'NLW IA',
-            alt: 'Thumbnail do Projeto NLW IA',
+            alt: 'Thumbnail NLW IA',
             img: 'https://raw.githubusercontent.com/ArturFPC/NLW-IA/main/nlw-ia.jpg',
-            text: 'Projeto que desenvolvi durante o NLW-IA da Rocketseat, o objetivo inicial do projeto é a criação de uma aplicação web a qual realiza o resumo de Shorts do Youtube através de inteligência artificial, para isso foi utilizado diversas tecnologias, principalmente o Node.js. Foram utilizados dois modelos de IA durante o desenvolvimento, um para gerar um texto a partir do áudio do Shorts e a outra para resumir o texto gerado.',
-            techs: 'React, Node.js, Inteligência Artificial',
+            text: "Project that I developed during Rocketseat's NLW-IA, the initial objective of the project is to create a web application that summarizes YouTube Shorts through artificial intelligence, for this purpose several technologies were used, mainly Node.js. Two AI models were used during development, one to generate text from the Shorts audio and the other to summarize the generated text.",
+            techs: 'React, Node.js, Artificial Inteligence',
           }}
         />
       </a>
@@ -41,9 +41,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'Wavelets',
-            alt: 'Thumbnail do Projeto Wavelets',
+            alt: 'Thumbnail Wavelets',
             img: 'https://raw.githubusercontent.com/ArturFPC/Wavelets/main/wavelets.jpg',
-            text: 'Projeto desenvolvido durante a disciplina processamento digital de imagens no oitavo período do curso de Engenharia de Computação, por meio desse projeto pude aprender diversos conceitos a cerca de Wavelets e também pude programar alguns softwares que fazem uso delas, softwares que são uteis em pré-processamento, compactação de imagens, entre outras coisas.',
+            text: 'Project developed during the digital image processing discipline in the eighth period of the Computer Engineering course, through this project I was able to learn several concepts about Wavelets and I was also able to program some software that makes use of them, software that is useful in pre-processing, image compression, among other things.',
             techs: 'Python, Wavelets',
           }}
         />
@@ -52,9 +52,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'Beecrowd',
-            alt: 'Thumbnail do Projeto Beecrowd',
+            alt: 'Thumbnail Beecrowd',
             img: 'https://raw.githubusercontent.com/ArturFPC/Beecrowd/main/beecrowd.png',
-            text: 'Este projeto é um conjunto de resoluções de problemas resolvidos da plataforma Beecrowd, no repositório que inclui as resoluções, estão apenas algumas mais básicas, caso tenha interesse em mais resoluções confira meu perfil no próprio site da Beecrowd.',
+            text: 'This project is a set of resolutions to solved problems on the Beecrowd platform. In the repository that includes the resolutions, there are only some of the most basic ones. If you are interested in more resolutions, check out my profile on the Beecrowd website.',
             techs: 'C++',
           }}
         />
@@ -63,9 +63,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'Grafos',
-            alt: 'Thumbnail do Projeto Grafos',
+            alt: 'Thumbnail Grafos',
             img: 'https://raw.githubusercontent.com/ArturFPC/Grafo-Algoritmo-Floyd-Warshall/main/grafos.jpeg',
-            text: 'Esta seção é dedicada aos algortimos de resolução de grafos que desenvolvi durante a disciplina de Técnicas de Programação no sexto período, inclui os seguintes algoritmos: Djikstra, Prim, Floyd-Warshall e Busca em Largura.',
+            text: 'This section is dedicated to the graph resolution algorithms that I developed during the Programming Techniques course in the sixth period, it includes the following algorithms: Djikstra, Prim, Floyd-Warshall and Breadth-First Search.',
             techs: 'C++',
           }}
         />
@@ -73,10 +73,10 @@ export const ProjectsList = () => {
       <a href="https://github.com/ArturFPC/DiskBTree-SerialCurrency">
         <ProjectCard
           project={{
-            name: 'Árvore B em disco',
-            alt: 'Thumbnail do Projeto Árvore B',
+            name: 'Disk B-Tree',
+            alt: 'Thumbnail Disk B-Tree',
             img: 'https://raw.githubusercontent.com/ArturFPC/DiskBTree-SerialCurrency/main/arvoreB.jpeg',
-            text: 'Esta é uma implementação da árvore B projetada para ser usada em um disco, feita utilizando um arquivo tipado, onde os valores inseridos nesta estrutura devem ser do tipo serialCurrency. O código é escrito em C++ e inclui documentação detalhada e comentários para auxiliar na compreensão e implementação.',
+            text: 'This is a B-tree implementation designed to be used on disk, made using a typed file, where the values ​​inserted into this structure must be of type serialCurrency. The code is written in C++ and includes detailed documentation and comments to aid in understanding and implementation.',
             techs: 'C++',
           }}
         />
@@ -85,9 +85,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'Socket HTTP Multithread',
-            alt: 'Thumbnail do Projeto Socket',
+            alt: 'Thumbnail Socket',
             img: 'https://raw.githubusercontent.com/ArturFPC/Socket-HTTP-Multithreaded/main/socket.jpeg',
-            text: 'Implementação de um servidor web multithreaded, capaz de responder solicitações de um navegador web. A utilização deste é baseada na execução do socket no desktop, e fazer uma requisição HTTP pelo navegador no endereço do computador na porta 3000.',
+            text: "Implementation of a multithreaded web server, capable of responding to requests from a web browser. Its use is based on running the socket on the desktop, and making an HTTP request through the browser to the computer's address on port 3000.",
             techs: 'C++',
           }}
         />
@@ -96,9 +96,9 @@ export const ProjectsList = () => {
         <ProjectCard
           project={{
             name: 'Snake Game',
-            alt: 'Thumbnail do Snake Game',
+            alt: 'Thumbnail Snake Game',
             img: 'https://raw.githubusercontent.com/ArturFPC/SnakeGame/main/snakegame.jpeg',
-            text: 'Jogo desenvolvido em java durante a disciplina de programação orientada a objetos, o objetivo da criação desse jogo foi absorver o conteúdo da disciplina e poder praticar as habilidades de programação.',
+            text: 'Game developed in Java during the object-oriented programming course, the objective of creating this game was to absorb the content of the course and be able to practice programming skills.',
             techs: 'Java',
           }}
         />

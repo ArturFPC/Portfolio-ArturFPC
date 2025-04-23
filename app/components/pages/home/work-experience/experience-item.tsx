@@ -43,13 +43,11 @@ export const ExperienceItem = ({ item }: ExperienceItemProps) => {
           </a>
           <h4 className="text-gray-300">{item.job}</h4>
           <span className="text-gray-500">
-            {item.start} ◉ {item.end} ◉ (1 mês)
+            {item.start} ◉ {item.end}
           </span>
           <p className="text-justify text-gray-400">{item.about}</p>
         </div>
-        <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold">
-          Competências
-        </p>
+        <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold">Skills</p>
         <div className="flex gap-x-2 gap-y-3 flex-wrap lg:max-w-[350px] mb-8">
           {item.techs.map((value, index) => (
             <TechBadge key={index} name={value} />

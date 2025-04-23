@@ -44,7 +44,7 @@ export const Card = ({ project }: CardProps) => {
           ))}
         </div>
         <Link className="flex" href={project.link}>
-          Ver projeto <HiArrowNarrowRight />
+          See project <HiArrowNarrowRight />
         </Link>
       </div>
     </div>

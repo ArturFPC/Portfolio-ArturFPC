@@ -5,34 +5,67 @@ export const WorkExperience = () => {
   return (
     <section className="container py-16 flex gap-10 md:gap-4 lg:gap-16 flex-col md:flex-row">
       <div className="max-w-[420px]">
-        <SectionTitle
-          subtitle="experiências"
-          title="Experiência Profissional"
-        />
+        <SectionTitle subtitle="experiências" title="Professional Experience" />
         <p className="text-gray-400 mt-6 text-justify">
-          Estudante prestes a concluir a graduação em Engenharia de Computação,
-          apresento habilidades sólidas em programação, com destaque em Python,
-          C++ e na área de desenvolvimento web. Comecei minha tragetória como
-          programador durante o curso técnico informática integrado ao ensino
-          médio e logo tomei gosto pela área. Durante a minha graduação pude
-          aprimorar minhas habilidades na área de desenvolvimento tanto dentro
-          quanto fora da faculdade. Busco uma oportunidades no mercado de
-          trabalho para aplicar meu conhecimento e crescer profissionalmente.
+          Recently graduated in Computer Engineering, I currently work as a
+          Junior Full Stack Developer at a software factory. I have strong
+          programming skills and experience with Web and Mobile development,
+          APIs, and databases. My journey as a programmer began during my
+          technical high school program in IT, where I quickly developed a
+          passion for the field. Throughout my undergraduate studies, I was able
+          to improve my development skills both inside and outside the
+          classroom. I’m always seeking opportunities to apply my knowledge and
+          grow professionally.
         </p>
       </div>
       <div className="flex flex-col gap-4">
+        <ExperienceItem
+          item={{
+            name: 'Dacta',
+            start: 'sep 2024',
+            end: 'now',
+            src: 'https://drive.google.com/uc?id=1f4-zDaNbPBMM5yL2rimqGLfqmV1qf1f_',
+            job: 'Junior Full Stack Developer',
+            about:
+              'I work with Web development using React and TypeScript, Mobile development with Flutter, and backend development with two APIs — one in Java and the other using NestJS — connected to a PostgreSQL database.',
+            techs: [
+              'TypeScript',
+              'Flutter',
+              'React',
+              'Java',
+              'NestJs',
+              'PostgreSql',
+            ],
+            link: 'https://www.linkedin.com/company/realtecsolucaoemgestao/',
+            alt: 'Logo Dacta',
+          }}
+        />
+        <ExperienceItem
+          item={{
+            name: 'Realtec',
+            start: 'mar 2024',
+            end: 'jan 2025',
+            src: 'https://drive.google.com/uc?id=124Vsv_bpnz_ExA3PKBtXphI9nWmFx24n',
+            job: 'Data Analytics and AI Intern',
+            about:
+              'I participated in a project focused on applying Artificial Intelligence to financial data analysis, in collaboration with EMBRAPII and the company NegocIA. My work involved data preprocessing and labeling, as well as training and evaluating models based on decision trees (Random Forest, Gradient Boosting) and neural networks, particularly the Transformer model. I also implemented the POCID metric for performance evaluation. The project used the Darts library and provided in-depth experience with time series and the financial market.',
+            techs: ['Python'],
+            link: 'https://www.linkedin.com/company/polo-de-inova%C3%A7%C3%A3o-ifmg/',
+            alt: 'NegocIA SINAL project logo',
+          }}
+        />
         <ExperienceItem
           item={{
             name: 'Realtec',
             start: 'jul 2018',
             end: 'jul 2018',
             src: 'https://drive.google.com/uc?id=1cPV5MZFK7xXgvxpsH0gxeGNW_7wAfqYp',
-            job: 'Estigiário na equipe de desenvolvimento',
+            job: 'Intern in the development team',
             about:
-              'Durante o estágio foi desenvolvido um projeto paralelo ao da equipe de desenvolvimento, com base nos sistemas feitos pela empresa. Para o desenvolvimento deste projeto foram utilizadas as ferramentas Delphi, MySQL e Firebird.',
+              'During the internship, a parallel project was developed to that of the development team, based on the systems made by the company. The tools Delphi, MySQL and Firebird were used to develop this project.',
             techs: ['Pascal', 'MySQL'],
             link: 'https://www.linkedin.com/company/realtecsolucaoemgestao/',
-            alt: 'Logo da empresa Realtec Soluções em Gestão',
+            alt: 'Logo Realtec',
           }}
         />
         <ExperienceItem
@@ -41,12 +74,12 @@ export const WorkExperience = () => {
             start: 'jan 2019',
             end: 'fev 2019',
             src: 'https://drive.google.com/uc?id=1u5HMdLTOBEytD4cj3i3L1EgwNU7SCnc2',
-            job: 'Estigiário na equipe de suporte e manutenção',
+            job: 'Intern in the support and maintenance team',
             about:
-              'Atuação no setor de suporte e manutenção, dentro das diversas atividades pertinentes à manutenção de computadores vinculados aos servidores do IFMG, Reitoria.',
-            techs: ['Manutenção de computadores'],
+              'Work in the support and maintenance sector, within the various activities related to the maintenance of computers linked to the IFMG, Rectory servers.',
+            techs: ['Computer maintenance'],
             link: 'https://www.linkedin.com/school/ifmgnarede/',
-            alt: 'Logo da empresa Realtec Soluções em Gestão',
+            alt: 'Logo IFMG',
           }}
         />
       </div>
